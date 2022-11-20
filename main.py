@@ -24,11 +24,3 @@ if __name__ == '__main__':
     clear_token();
     os.system("allure generate ./report/xml -o ./report/html --clean");
     os.system(f"allure open {os.path.dirname(__file__)}/report/html");
-
-    # d = {'headers': {'Content-Type': 'application/json;charset=UTF-8',
-    #              'X-Authorization': 'Bearer NGUyMzdiOWUwZmMwNDI2NjlhZGE3MGRmMjFiNTFkM2ItcHl0aG9uLXJlcXVlc3RzLzIuMjguMS0xNjY4NzkwMTYwNjIwLWE3MDZkNDAxMTVkNzQ0MDhhMGM1ZjFkNTBkZjU0OGU4'},
-    #  'params': {'type': 2, 'companyId': 'c89e95cdb488475285e26b51382f886b', 'sort': 3},
-    #  'url': 'http://winhong.zkuyun.com:6060/netdisk-api/netdisk/objectList', 'method': 'get'}
-    # d['headers']['X-Authorization'] = "Bearer Bearer NGUyMzdiOWUwZmMwNDI2NjlhZGE3MGRmMjFiNTFkM2ItcHl0aG9uLXJlcXVlc3RzLzIuMjguMS0xNjY4ODYwMzUzNjQ4LTVlODg2ZjgyOWJkYzRhOTNiNGI0YmY1ODIzOTZjMWI5"
-    # resp = requests.request(**d);
-    # print(resp.json())

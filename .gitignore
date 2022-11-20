@@ -9,6 +9,12 @@
 *.png
 *.yml
 *.yaml
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
 
 __pycache__
 .idea
